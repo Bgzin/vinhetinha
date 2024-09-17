@@ -30,13 +30,15 @@ export default function RegisterPage() {
     <div className="page">
       <header className="header">
         <div className="logoSpace">
-          <img src="/logo.png" alt="Logo" />
+          <img src="/logo.png" alt="Logo" className="logo" />
         </div>
-        <ul className="navButtons">
-        <li><a href="/">Home</a></li>
-          <li><a href="/register">Registrar</a></li>
-          <li><a href="/login">Login</a></li>
-        </ul>
+        <nav>
+          <ul className="navButtons">
+            <li><a href="/">Home</a></li>
+            <li><a href="/register">Registrar</a></li>
+            <li><a href="/login">Login</a></li>
+          </ul>
+        </nav>
       </header>
 
       <main className="main">

@@ -1,22 +1,32 @@
+/* RegisterPage.css */
+
 .page {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: #000000; /* Define o fundo preto */
+  font-family: Arial, sans-serif; /* Adiciona uma fonte padrão ao corpo */
 }
 
 .header {
   background-color: #003366;
   color: #FFD700;
-  padding: 20px;
+  padding: 20px 0; /* Ajusta o padding para aumentar a altura do header */
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 1000;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Alinha verticalmente o conteúdo do header */
+}
+
+.logo {
+  position: absolute;
+  top: 0px; /* Ajusta a posição da logo com base no novo padding do header */
+  left: 0px; /* Ajusta a posição da logo da esquerda */
+  height: 80px; /* Ajuste a altura da logo conforme necessário */
 }
 
 .logoSpace img {
@@ -47,7 +57,11 @@
 }
 
 .main {
-  padding: 80px 20px 60px;
+  padding: 110px 20px 60px; /* Ajusta o padding para compensar o header fixo */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente os itens */
+  justify-content: center; /* Centraliza verticalmente os itens */
   text-align: center;
   color: #FFD700;
 }
@@ -58,6 +72,8 @@
   margin-bottom: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  background-color: #333; /* Cor de fundo para inputs */
+  color: #FFD700; /* Cor do texto para inputs */
 }
 
 .button {
@@ -68,6 +84,10 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005bb5; /* Cor de fundo do botão ao passar o mouse */
 }
 
 .text {
@@ -87,10 +107,12 @@
 .footer {
   background-color: #003366;
   color: #FFD700;
-  padding: 10px 0;
+  padding: 42px 0; /* Aumenta o padding para aumentar a altura do footer */
   text-align: center;
   position: fixed;
   width: 100%;
   bottom: 0;
   left: 0;
 }
+
+
