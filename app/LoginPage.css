@@ -1,0 +1,96 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000; /* Define o fundo preto */
+}
+
+.header {
+  background-color: #003366;
+  color: #FFD700;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoSpace img {
+  height: 60px;
+}
+
+.navButtons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.navButtons li {
+  margin: 0 15px;
+}
+
+.navButtons a {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navButtons a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 80px 20px 60px;
+  text-align: center;
+  color: #FFD700;
+}
+
+.input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  width: 300px;
+  padding: 10px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 20px;
+}
+
+.link {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #003366;
+  color: #FFD700;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}

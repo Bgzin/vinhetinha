@@ -1,0 +1,93 @@
+/* styles/page.module.css */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #000000; /* Define o fundo preto */
+  font-family: Arial, sans-serif; /* Adiciona uma fonte padrão ao corpo */
+}
+
+.header {
+  background-color: #003366;
+  color: #FFD700;
+  padding: 26px 0; /* Aumenta o padding para aumentar a altura do header em aproximadamente 30% */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Alinha verticalmente o conteúdo do header */
+}
+
+.logo {
+  position: absolute;
+  top: 0px; /* Ajusta a posição da logo com base no novo padding do header */
+  left: 0px; /* Ajusta a posição da logo da esquerda */
+  height: 80px; /* Ajuste a altura da logo conforme necessário */
+}
+
+.navButtons {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.navButtons li {
+  margin: 0 15px;
+}
+
+.navButtons a {
+  color: #FFD700;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navButtons a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 110px 20px 60px; /* Aumenta o padding-top para compensar a altura aumentada do header */
+  text-align: center;
+  color: #FFD700; /* Define a cor do texto para combinar com o tema */
+}
+
+.ctas {
+  margin-top: 20px;
+}
+
+.primary {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.secondary {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #003366;
+  color: #FFD700;
+  padding: 42px 0; /* Aumenta o padding para aumentar a altura do footer em aproximadamente 30% */
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-end; /* Alinha a imagem à direita */
+  align-items: center;
+  height: 100%;
+  padding: 0 90px; /* Ajuste o padding se necessário */
+  margin-top: 130px; /* Ajusta o espaço acima da imagem */
+}
