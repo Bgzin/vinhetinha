@@ -60,9 +60,10 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>
-
-        </p>
+        <p>Instragram@      Twitter(X)       Facebook  </p>
+        <p>  Somos a CineVinheta, 
+        nossa missao é  garantir que nossos clientes consigão ver suas Sessoes </p>
+        <p>e garanta seu Lugar sem muita dor de cabeça </p>
       </footer>
     </div>
   );

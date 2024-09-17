@@ -1,0 +1,94 @@
+/* styles/page.module.css */
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000; /* Define o fundo preto */
+    font-family: Arial, sans-serif; /* Adiciona uma fonte padrão ao corpo */
+  }
+  
+  .header {
+    background-color: #003366;
+    color: #FFD700;
+    padding: 20px 0; /* Padding para o cabeçalho */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente o conteúdo do cabeçalho */
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px; /* Ajusta a posição da logo com base no padding do cabeçalho */
+    left: 20px; /* Ajusta a posição da logo da esquerda */
+    height: 60px; /* Ajusta a altura da logo conforme necessário */
+  }
+  
+  .navButtons {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
+  
+  .navButtons li {
+    margin: 0 15px;
+  }
+  
+  .navButtons a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navButtons a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    padding: 80px 20px 60px; /* Padding superior para compensar a altura do cabeçalho fixo */
+    text-align: center;
+    color: #FFD700; /* Cor do texto */
+    background-color: #1a1a1a; /* Fundo para a área principal */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .ctas {
+    margin-top: 20px;
+  }
+  
+  .primary, .secondary {
+    color: #FFD700;
+    text-decoration: none;
+  }
+  
+  .primary:hover, .secondary:hover {
+    text-decoration: underline;
+  }
+  
+  .footer {
+    background-color: #003366;
+    color: #FFD700;
+    padding: 20px 0; /* Padding para o rodapé */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .imageContainer {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    align-items: center;
+    height: 100%;
+    margin-top: 20px; /* Ajusta o espaço acima da imagem */
+  }
